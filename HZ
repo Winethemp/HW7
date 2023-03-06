@@ -1,0 +1,77 @@
+public class Main {
+            public static void main (String[] args) {
+                ArrayList> String= new ArrayList<>();
+                Collections.addAll (names, "Smith", "Doyle", "Pratt", "Spencer", "Spencer");
+                List<String> smallnames = new ArrayList<>();
+                smallnames = names.stream()
+ .filter(sd -> sd.length() < 6).collect(Collectors.toList());
+                System.out.println("имен стстоящик из менее 5 букв " + smallnames.stream().count());
+
+
+                System.out.println(smallnames);
+                System.out.println();
+                System.out.println();
+                ArrayList> String>  = new ArrayList<>();
+                Collections.addAll (names, "Smith", "Doyle", "Pratt", "Spencer");
+                List<String> longnames1 = new ArrayList<>();
+                longnames1 = names.stream()
+ .filter(s -> s.length() > 6).collect(Collectors.toList());
+
+                System.out.println(longnames1);
+
+
+                ");
+
+
+                ArrayList> String>  = new ArrayList<>();
+                Collections.addAll(namessur: "Joseph Smith", "David Mann", "Lee Padilla", "Samuel Shelton", "Joseph Smith");
+                //"Gregory Smith", "Leroy Zimmerman", "Lee Smith", "Michael Harrington", "Lee Daniels",
+                //"Eugene Williams"
+
+                namessur.stream().distinct()
+
+                System.out.println(" ");
+                System.out.println(" ");
+
+
+                ArrayList> String= new ArrayList<>();
+                Collections.addAll(namese, "Joseph Smith", "Thomas Doyle", "Wonald Pratt", "Thomas Spencer", "king Lee"),
+                        "Gregory Smith", "Leroy Zimmerman", "Lee Smith", "Wichael Harrington", "Lee Daniels", "King Mann", "King Mann", "King Mann",
+                        "Eugene Williams", "Lee Terry", "Arnold Fowler", "Billy Harrison", "Lee Bennett", "Lee Evans",
+                        "Ronald Diaz", "Leonard King", "Timothy Smith", "George Lee", "King Mann", "Dean Wright",
+                        "Lee Richards", "Arthur Smith", "Gregory Moore", "Larry Hall", "Patrick Moore", "Ben Smith");
+
+                namese.stream().distinct()
+ .takeWhile (sl -> sl.contains ("King"))
+ .forEach(sl -> System.out.print(sl + ", "));
+
+                namese.stream()
+                sl.contains ("King"))
+                System.out.print(sl + ", "));
+                System.out.println("все люди с именем или фамилией King");
+                System.out.println(
+                );
+                System.out.println();
+                System.out.println();
+
+                namese.stream().distinct() // takeWhile формирует подпоток, пока выполняется условие
+ .filter(sl -> sl.contains("L"))
+ .forEach(sl -> System.out.print(sl + ", "));
+                System.out.println("имена или фамилии начинающиеся с буквы L");
+                System.out.println(
+                );
+                System.out.println();
+                System.out.println();
+
+                namese.stream().distinct().sorted() // takeWhile формирует подпоток, пока выполняется условие
+ .filter(sl -> sl.contains("W")).
+                        forEach(sl -> System.out.print(sl + ", "));
+                System.out.println("имена или фамилии начинающиеся с буквы W");
+                System.out.println(
+                );
+                System.out.println();
+                System.out.println();
+
+                ArrayList> String>  = new ArrayList<>();
+                Collections.addAll(namek, "Anthony K.", "Arthur K.", "Arthur S.", "Ben S.", "Bobby S.", "Bryan K.", "David K.",
+                        "David S.", "Frank K.", "Gregory
